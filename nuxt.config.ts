@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', 'nuxt-echarts'],
   echarts: {
     renderer: ['svg', 'canvas'],
-    charts: ['BarChart', 'LineChart', 'PieChart'],
+    charts: ['BarChart', 'LineChart', 'PieChart', 'MapChart'],
     components: ['TitleComponent', 'TooltipComponent', 'LegendComponent', 'DatasetComponent', 'GridComponent'],
   },
 });

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Sample Chart</h1>
+    <h1>Sample Issues Chart</h1>
     <div style="width: 100%; height: 500px;">
       <VChart :option="option" />
     </div>
